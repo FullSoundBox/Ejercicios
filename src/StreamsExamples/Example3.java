@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * The code taken for this examples is from GeeksforGeeks page https://www.geeksforgeeks.org/stream-in-java/
+ * The code taken for these examples is from GeeksforGeeks page https://www.geeksforgeeks.org/stream-in-java/
  * and howtodo in JAVA shorturl.at/akuO8. Thanks to the team for writing these articles
  */
 public class Example3 {
@@ -81,6 +81,11 @@ public class Example3 {
         List<String> show =
                 names.stream().sorted().collect(Collectors.toList());
         System.out.println("Sorted list of string " + show);
+
+        //TODO: review these other filtering operations
+//        distinct: Returns a stream with unique elements (according to the implementation of equals for a stream element)
+//        limit(n): Returns a stream that is no longer than the given size n
+//        skip(n): Returns a stream with the first n number of elements discarded
     }
 
 }

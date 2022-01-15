@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * The code taken for this examples is from GeeksforGeeks page https://www.geeksforgeeks.org/java-8-stream-tutorial/
+ * The code taken for these examples is from GeeksforGeeks page https://www.geeksforgeeks.org/java-8-stream-tutorial/
  * Thanks to @solankimayank for writing the article
  */
 public class Example2 {

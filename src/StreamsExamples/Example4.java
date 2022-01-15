@@ -7,7 +7,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
- * The code taken for this examples is from GeeksforGeeks page https://www.geeksforgeeks.org/stream-in-java/
+ * The code taken for these examples is from GeeksforGeeks page https://www.geeksforgeeks.org/stream-in-java/
  * Thanks to the team for writing the article
  */
 public class Example4 {
